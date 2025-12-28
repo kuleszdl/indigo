@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+{{ $baseurl := .Site.BaseURL }}
 {{ $author := .Site.Params.Author }}
 {{ if .Params.Author }}
 {{ $author = .Params.Author }}
